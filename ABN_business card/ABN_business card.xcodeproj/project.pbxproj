@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EA402E71FB343EC00DE080C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA402E61FB343EC00DE080C /* AppDelegate.swift */; };
+		8EA402E91FB343EC00DE080C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA402E81FB343EC00DE080C /* ViewController.swift */; };
+		8EA402EC1FB343EC00DE080C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA402EA1FB343EC00DE080C /* Main.storyboard */; };
+		8EA402F11FB343EC00DE080C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA402EF1FB343EC00DE080C /* LaunchScreen.storyboard */; };
+		8EA403171FB356DC00DE080C /* UIView+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA403161FB356DC00DE080C /* UIView+Shadow.swift */; };
+		8EA403191FB3662400DE080C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EA403181FB3662400DE080C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8EA402E31FB343EC00DE080C /* ABN_business card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ABN_business card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EA402E61FB343EC00DE080C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EA402E81FB343EC00DE080C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8EA402EB1FB343EC00DE080C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EA402F01FB343EC00DE080C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EA402F21FB343EC00DE080C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EA403161FB356DC00DE080C /* UIView+Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Shadow.swift"; sourceTree = "<group>"; };
+		8EA403181FB3662400DE080C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EA402E01FB343EC00DE080C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E168D731FBC987C003A0E3C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8EA402EA1FB343EC00DE080C /* Main.storyboard */,
+				8EA402EF1FB343EC00DE080C /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8E168D741FBC9891003A0E3C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8EA402E81FB343EC00DE080C /* ViewController.swift */,
+				8EA403161FB356DC00DE080C /* UIView+Shadow.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8E168D751FBC98A7003A0E3C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8EA402E61FB343EC00DE080C /* AppDelegate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8EA402DA1FB343EC00DE080C = {
+			isa = PBXGroup;
+			children = (
+				8EA402E51FB343EC00DE080C /* ABN_business card */,
+				8EA402E41FB343EC00DE080C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EA402E41FB343EC00DE080C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EA402E31FB343EC00DE080C /* ABN_business card.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EA402E51FB343EC00DE080C /* ABN_business card */ = {
+			isa = PBXGroup;
+			children = (
+				8EA402F21FB343EC00DE080C /* Info.plist */,
+				8E168D751FBC98A7003A0E3C /* Model */,
+				8E168D741FBC9891003A0E3C /* Controller */,
+				8E168D731FBC987C003A0E3C /* View */,
+				8EA403181FB3662400DE080C /* Assets.xcassets */,
+			);
+			path = "ABN_business card";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EA402E21FB343EC00DE080C /* ABN_business card */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EA402F51FB343EC00DE080C /* Build configuration list for PBXNativeTarget "ABN_business card" */;
+			buildPhases = (
+				8EA402DF1FB343EC00DE080C /* Sources */,
+				8EA402E01FB343EC00DE080C /* Frameworks */,
+				8EA402E11FB343EC00DE080C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ABN_business card";
+			productName = "ABN_business card";
+			productReference = 8EA402E31FB343EC00DE080C /* ABN_business card.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EA402DB1FB343EC00DE080C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Jolijn Friederichs";
+				TargetAttributes = {
+					8EA402E21FB343EC00DE080C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8EA402DE1FB343EC00DE080C /* Build configuration list for PBXProject "ABN_business card" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EA402DA1FB343EC00DE080C;
+			productRefGroup = 8EA402E41FB343EC00DE080C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EA402E21FB343EC00DE080C /* ABN_business card */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EA402E11FB343EC00DE080C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EA402F11FB343EC00DE080C /* LaunchScreen.storyboard in Resources */,
+				8EA403191FB3662400DE080C /* Assets.xcassets in Resources */,
+				8EA402EC1FB343EC00DE080C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EA402DF1FB343EC00DE080C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EA402E91FB343EC00DE080C /* ViewController.swift in Sources */,
+				8EA403171FB356DC00DE080C /* UIView+Shadow.swift in Sources */,
+				8EA402E71FB343EC00DE080C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8EA402EA1FB343EC00DE080C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EA402EB1FB343EC00DE080C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EA402EF1FB343EC00DE080C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EA402F01FB343EC00DE080C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EA402F31FB343EC00DE080C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EA402F41FB343EC00DE080C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EA402F61FB343EC00DE080C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CN3GX992VL;
+				INFOPLIST_FILE = "ABN_business card/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Noodlewerk.ABN-business-card";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EA402F71FB343EC00DE080C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CN3GX992VL;
+				INFOPLIST_FILE = "ABN_business card/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Noodlewerk.ABN-business-card";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EA402DE1FB343EC00DE080C /* Build configuration list for PBXProject "ABN_business card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EA402F31FB343EC00DE080C /* Debug */,
+				8EA402F41FB343EC00DE080C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EA402F51FB343EC00DE080C /* Build configuration list for PBXNativeTarget "ABN_business card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EA402F61FB343EC00DE080C /* Debug */,
+				8EA402F71FB343EC00DE080C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EA402DB1FB343EC00DE080C /* Project object */;
+}

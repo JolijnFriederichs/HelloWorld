@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ABN_business_card" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DH0-WP-5pL">
+                                <rect key="frame" x="37" y="52" width="300" height="400"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1iv-A7-v8L" userLabel="CardView">
+                                <rect key="frame" x="37" y="52" width="300" height="400"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="1MS-3o-acD" userLabel="Front Logo">
+                                        <rect key="frame" x="112.5" y="162.5" width="75" height="75"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="75" id="WbM-bs-tmE"/>
+                                            <constraint firstAttribute="width" constant="75" id="xsr-CJ-JC1"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="4Vt-d8-3jd" userLabel="Back Logo">
+                                        <rect key="frame" x="112" y="100" width="75" height="75"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="75" id="gx6-iK-lfo"/>
+                                            <constraint firstAttribute="width" constant="75" id="shj-cf-gvM"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JOBTITLE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xHT-AC-z48">
+                                        <rect key="frame" x="108" y="189.5" width="84" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ivc-Ax-2d1" userLabel="Name Label">
+                                        <rect key="frame" x="125.5" y="227" width="49" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="4Vt-d8-3jd" firstAttribute="top" secondItem="1iv-A7-v8L" secondAttribute="top" constant="100" id="10K-ox-Cjp"/>
+                                    <constraint firstItem="4Vt-d8-3jd" firstAttribute="centerX" secondItem="1iv-A7-v8L" secondAttribute="centerX" id="3L3-oW-neF"/>
+                                    <constraint firstItem="xHT-AC-z48" firstAttribute="centerX" secondItem="1iv-A7-v8L" secondAttribute="centerX" id="6co-BX-WCn"/>
+                                    <constraint firstAttribute="height" constant="400" id="Bp9-hJ-IyI"/>
+                                    <constraint firstItem="ivc-Ax-2d1" firstAttribute="centerX" secondItem="1iv-A7-v8L" secondAttribute="centerX" id="LNw-vT-ce9"/>
+                                    <constraint firstItem="1MS-3o-acD" firstAttribute="centerX" secondItem="1iv-A7-v8L" secondAttribute="centerX" id="Nkw-bc-MFy"/>
+                                    <constraint firstItem="ivc-Ax-2d1" firstAttribute="top" secondItem="xHT-AC-z48" secondAttribute="bottom" constant="16.5" id="RH6-wS-Ajj"/>
+                                    <constraint firstItem="xHT-AC-z48" firstAttribute="centerY" secondItem="1iv-A7-v8L" secondAttribute="centerY" id="ecB-8X-iIx"/>
+                                    <constraint firstItem="1MS-3o-acD" firstAttribute="centerY" secondItem="1iv-A7-v8L" secondAttribute="centerY" id="eux-d1-UyA"/>
+                                    <constraint firstItem="xHT-AC-z48" firstAttribute="centerX" secondItem="1iv-A7-v8L" secondAttribute="centerX" id="gyk-ip-Eho"/>
+                                    <constraint firstAttribute="width" constant="300" id="ndp-yj-UJX"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bjz-3R-obp">
+                                <rect key="frame" x="37" y="477" width="300" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="OQ2-fZ-p77"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="15"/>
+                                <state key="normal" title="FLIP CARD">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapFlipButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="afE-iL-rkD"/>
+                                </connections>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="57" minValue="0.0" maxValue="114" translatesAutoresizingMaskIntoConstraints="NO" id="Sqj-Wt-AsZ">
+                                <rect key="frame" x="35.5" y="559" width="304" height="31"/>
+                                <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="thumbTintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="didSlide:" destination="BYZ-38-t0r" eventType="valueChanged" id="HJM-g7-Xjx"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Sqj-Wt-AsZ" firstAttribute="width" secondItem="Bjz-3R-obp" secondAttribute="width" id="0Zj-nZ-QBP"/>
+                            <constraint firstItem="1iv-A7-v8L" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="74Z-Vq-o6y"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Bjz-3R-obp" secondAttribute="bottom" constant="140" id="IfH-D3-OkK"/>
+                            <constraint firstItem="DH0-WP-5pL" firstAttribute="centerY" secondItem="1iv-A7-v8L" secondAttribute="centerY" id="T5K-Di-McI"/>
+                            <constraint firstItem="DH0-WP-5pL" firstAttribute="centerX" secondItem="1iv-A7-v8L" secondAttribute="centerX" id="Znm-g9-I0X"/>
+                            <constraint firstItem="DH0-WP-5pL" firstAttribute="height" secondItem="1iv-A7-v8L" secondAttribute="height" id="ezT-YZ-zfb"/>
+                            <constraint firstItem="1iv-A7-v8L" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="ftb-xM-tT3"/>
+                            <constraint firstItem="Sqj-Wt-AsZ" firstAttribute="top" secondItem="Bjz-3R-obp" secondAttribute="bottom" constant="32" id="gB7-Ty-QfS"/>
+                            <constraint firstItem="Bjz-3R-obp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mii-ES-noj"/>
+                            <constraint firstItem="Bjz-3R-obp" firstAttribute="width" secondItem="1iv-A7-v8L" secondAttribute="width" id="nfC-WP-MeB"/>
+                            <constraint firstItem="Sqj-Wt-AsZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vgg-ML-1LL"/>
+                            <constraint firstItem="DH0-WP-5pL" firstAttribute="width" secondItem="1iv-A7-v8L" secondAttribute="width" id="yhO-6A-Bf3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="backLogo" destination="4Vt-d8-3jd" id="ffs-1c-T18"/>
+                        <outlet property="bussinessCardView" destination="1iv-A7-v8L" id="pAZ-Go-5KV"/>
+                        <outlet property="flipButton" destination="Bjz-3R-obp" id="PXN-sd-Vg7"/>
+                        <outlet property="imageView" destination="1MS-3o-acD" id="aUR-qT-nxl"/>
+                        <outlet property="nameLabel" destination="ivc-Ax-2d1" id="RbX-kz-8Ec"/>
+                        <outlet property="shadowView" destination="DH0-WP-5pL" id="zLc-ZR-V4I"/>
+                        <outlet property="titleLabel" destination="xHT-AC-z48" id="BJS-rh-t35"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Logo" width="191" height="254"/>
+    </resources>
+</document>
