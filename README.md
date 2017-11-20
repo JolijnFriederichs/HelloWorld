@@ -1,2 +1,3 @@
 # HelloWorld
-Here lives the startproject of the Hello World workshop.
+Here you can find the starterproject from the workshop, the finished project and some extra documentation.
+
