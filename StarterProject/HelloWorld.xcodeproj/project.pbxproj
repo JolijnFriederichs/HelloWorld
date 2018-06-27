@@ -13,7 +13,6 @@
 		8EA4034C1FB3693F00DE080C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EA4034B1FB3693F00DE080C /* Assets.xcassets */; };
 		8EA4034F1FB3693F00DE080C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA4034D1FB3693F00DE080C /* LaunchScreen.storyboard */; };
 		8EA403571FB3698300DE080C /* UIView+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA403561FB3698300DE080C /* UIView+Shadow.swift */; };
-		8EA891A61FC17FAC0075F058 /* PersonalInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA891A51FC17FAC0075F058 /* PersonalInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		8EA4034E1FB3693F00DE080C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EA403501FB3693F00DE080C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EA403561FB3698300DE080C /* UIView+Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Shadow.swift"; sourceTree = "<group>"; };
-		8EA891A51FC17FAC0075F058 /* PersonalInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +56,8 @@
 		8EA403431FB3693F00DE080C /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
-				8EA403501FB3693F00DE080C /* Info.plist */,
 				8EA403441FB3693F00DE080C /* AppDelegate.swift */,
+				8EA403501FB3693F00DE080C /* Info.plist */,
 				8EA403581FB3699C00DE080C /* View */,
 				8EA891A41FC17EAD0075F058 /* Controller */,
 				8EA403591FB369A900DE080C /* Model */,
@@ -80,7 +78,6 @@
 		8EA403591FB369A900DE080C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				8EA891A51FC17FAC0075F058 /* PersonalInfo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -167,7 +164,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EA403471FB3693F00DE080C /* ViewController.swift in Sources */,
-				8EA891A61FC17FAC0075F058 /* PersonalInfo.swift in Sources */,
 				8EA403571FB3698300DE080C /* UIView+Shadow.swift in Sources */,
 				8EA403451FB3693F00DE080C /* AppDelegate.swift in Sources */,
 			);
