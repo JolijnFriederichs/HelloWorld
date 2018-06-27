@@ -58,7 +58,6 @@
 		8E168D751FBC98A7003A0E3C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				8EA402E61FB343EC00DE080C /* AppDelegate.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -83,9 +82,10 @@
 			isa = PBXGroup;
 			children = (
 				8EA402F21FB343EC00DE080C /* Info.plist */,
-				8E168D751FBC98A7003A0E3C /* Model */,
-				8E168D741FBC9891003A0E3C /* Controller */,
+				8EA402E61FB343EC00DE080C /* AppDelegate.swift */,
 				8E168D731FBC987C003A0E3C /* View */,
+				8E168D741FBC9891003A0E3C /* Controller */,
+				8E168D751FBC98A7003A0E3C /* Model */,
 				8EA403181FB3662400DE080C /* Assets.xcassets */,
 			);
 			path = "ABN_business card";
@@ -127,7 +127,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8EA402DE1FB343EC00DE080C /* Build configuration list for PBXProject "ABN_business card" */;
+			buildConfigurationList = 8EA402DE1FB343EC00DE080C /* Build configuration list for PBXProject "ABNBusiness card" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -331,7 +331,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8EA402DE1FB343EC00DE080C /* Build configuration list for PBXProject "ABN_business card" */ = {
+		8EA402DE1FB343EC00DE080C /* Build configuration list for PBXProject "ABNBusiness card" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8EA402F31FB343EC00DE080C /* Debug */,
