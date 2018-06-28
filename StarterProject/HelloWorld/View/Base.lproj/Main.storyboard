@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,13 +13,39 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HelloWorld" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5TR-NG-d5N" userLabel="Shadow View">
+                                <rect key="frame" x="62" y="52" width="250" height="400"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o6S-iq-iXL" userLabel="Businesscard View">
+                                <rect key="frame" x="62" y="52" width="250" height="400"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="5Np-Eu-ai7"/>
+                                    <constraint firstAttribute="height" constant="400" id="UTA-ix-b2d"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="o6S-iq-iXL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="D6F-b1-MFS"/>
+                            <constraint firstItem="o6S-iq-iXL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="TRO-m2-Fdr"/>
+                            <constraint firstItem="5TR-NG-d5N" firstAttribute="centerY" secondItem="o6S-iq-iXL" secondAttribute="centerY" id="etY-au-kRp"/>
+                            <constraint firstItem="5TR-NG-d5N" firstAttribute="width" secondItem="o6S-iq-iXL" secondAttribute="width" id="h4T-xR-oP9"/>
+                            <constraint firstItem="5TR-NG-d5N" firstAttribute="height" secondItem="o6S-iq-iXL" secondAttribute="height" id="s77-tu-1hM"/>
+                            <constraint firstItem="5TR-NG-d5N" firstAttribute="centerX" secondItem="o6S-iq-iXL" secondAttribute="centerX" id="wEa-AE-2zy"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="businessCardView" destination="o6S-iq-iXL" id="Kcl-2Q-KiM"/>
+                        <outlet property="shadowView" destination="5TR-NG-d5N" id="YcB-G2-Wh4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
